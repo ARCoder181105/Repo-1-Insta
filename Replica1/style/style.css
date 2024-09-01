@@ -1,0 +1,280 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #d4161600;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    height: 100vh;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+
+.profile{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 2px solid gray;
+    /* border-bottom: 2px solid gray; */
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.141)
+   
+}   
+
+.logo{
+  
+    align-items: start;
+    margin-left: 2px;    width: 234px;
+
+}
+
+.profilephoto{
+    
+    width: 12px;
+    align-items: center;  
+    margin-top: 40px; 
+    box-sizing: border-box;
+    
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 5px;
+    text-align: center;
+}       
+
+.profile .follow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.profile .follow div{
+    text-align: center;
+}
+
+
+.profile .menu{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 20px;
+   
+}
+
+.profile .menu a {
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    font-size: 18px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.profile .menu a:hover {
+    background-color: #e6e6e6;
+}
+
+.profile .menu .c1 {
+    color: #ff385c;
+}
+
+.profile .menu div{
+    width: 253px;
+    transform: translateX(2px);
+   
+}
+
+.profile .menu p{
+    width: 30% ;
+    height: 30%;
+}
+a{
+    transition: all 0.2s ease-in-out;
+}
+a:hover{
+    transform: scale(1.2);
+
+}
+
+/* Main Content  */
+
+.main-content{
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    padding:22px;
+    overflow-y: auto;
+}
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+
+.head .search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    width: 15rem;
+    text-align: center;
+}
+
+.head .icons {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+
+.head .icons img {
+    /* width: ; */
+    height: 24px;
+    cursor: pointer;
+}
+
+
+
+.stories {
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-auto-flow: column; */
+    flex-direction: row;
+    justify-content: space-around;
+    /* grid-auto-columns: 70px; */
+    gap: 25px;
+    margin-bottom: 20px;
+    width: 800px;
+    height: 100px;
+    
+    /* overflow-x: aut; */
+}
+
+.stories .story1 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    
+    overflow: hidden;
+}
+
+.stories .story1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.story1{
+    transition: all 0.2s ease-in-out;
+}
+.story1:hover{
+    transform: scale(1.6);
+
+}
+
+.title{
+    text-align-last: left;
+}
+
+ 
+.feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fill,minmax(300px,1fr));
+    gap: 30px;
+}
+
+.feed .post {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+   
+}
+
+.feed .post img {
+    width: 90%;
+    height: auto;
+}
+
+.feed .post .actions {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.feed .post .actions img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+.p{
+    transition: all 0.2s ease-in-out;}
+ .post :hover{transform: scale(0.95);}
+.f1{
+    font-size: 35px;
+}
+.f2{
+    font-size: 35px;
+}
+
+button{
+    font-style: bold;
+    text-align: center;
+    padding: 15px ;
+    border-radius: 10px;
+   background-color:#ff385c;
+   color: white;
+   width: 150px;
+   
+}
+.butt{transition: all 0.2s ease-in-out;}
+button:hover{
+    background-color: gold
+    
+}
+.butt:hover{
+transform: scale(1.2);
+}
+.pp1{
+transition: all 0.2s ease-in-out;}
+.profilephoto:hover{
+    transform: scale(1.2);
+}
+.follow{transition: all 0.2s ease-in-out;}
+
+.s1:hover{
+    transform: scale(1.2)  ;
+   
+
+}
+
+.s2:hover{
+    transform: scale(1.2) ;
+
+}
+
+.s3:hover{
+    transform: scale(1.2) ;
+
+}
+
+
+.sea{transition: all 0.2s ease-in-out;}
+input:hover{transform: scale(1.2) ;}
